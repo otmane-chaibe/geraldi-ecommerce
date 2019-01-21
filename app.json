@@ -6,17 +6,6 @@
   "repository": "https://github.com/heroku/ruby-getting-started",
   "keywords": ["ruby", "rails" ],
   "addons": ["heroku-postgresql"],
-
-  "keywords": [
-    "Rails Composer",
-    "RailsApps",
-    "starter",
-    "Bootstrap",
-    "authentication",
-    "Devise",
-    "Ruby",
-    "Rails"
-  ],
   "scripts": {"postdeploy": "bundle exec rake db:migrate; bundle exec rake db:seed"},
   "env": {
     "ADMIN_EMAIL": {
