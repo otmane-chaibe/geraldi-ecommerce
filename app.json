@@ -1,6 +1,6 @@
 {
   
-  "name": "Start on Heroku: Ruby",
+  "name": "vetement",
   "description": "A barebones Rails app, which can easily be deployed to Heroku",
   "image": "heroku/ruby",
   "repository": "https://github.com/otmane-chaibe/geraldi-ecommerce",
