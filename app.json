@@ -13,7 +13,7 @@
     "Ruby",
     "Rails"
   ],"keywords": ["ruby", "rails" ],
-  "addons": ["heroku-postgresql"]
+  "addons": ["heroku-postgresql"],
   "scripts": {"postdeploy": "bundle exec rake db:migrate; bundle exec rake db:seed"},
   "env": {
     "ADMIN_EMAIL": {
