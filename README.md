@@ -23,6 +23,18 @@ rake db:create
 rake db:migrate
 rake db:seed
 ```
+## Deploying to Heroku
+
+```sh
+$ heroku create
+$ git push heroku master
+$ heroku run rake db:migrate
+$ heroku open
+```
+
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Running
 ```shell
